@@ -1,0 +1,2 @@
+
+lista(range(4))
