@@ -5,5 +5,7 @@ contatos = {
 contatos.items()  # dict_items([('guilherme@gmail.com', {'nome': 'Guilherme', 'telefone': '3333-2221'})])
 
 
-# Ele retorna uma lista de duplas e quando você quer fazer o comando
-#  " for " e quer intera os valores do dicionário
+novo_dicionario = {"a": 100, 1: "teste", "b": "python"}
+print(novo_dicionario.keys())
+
+# Keys é quando você é quando você quer saber todas as chaves que seu dicionario tem
