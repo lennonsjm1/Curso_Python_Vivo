@@ -3,7 +3,8 @@ contatos = {
 }
 
 #contatos["chave"]  # KeyError
-# Sem o metodo get o sistema para e da KeyError significa que a chave que procura não tem dentro do dicionario e para o programa
+# Sem o metodo get o sistema para e da KeyError significa 
+# que a chave que procura não tem dentro do dicionario e para o programa
 
 
 resultado = contatos.get("chave")  # None
@@ -12,7 +13,8 @@ print(resultado)
 
 resultado = contatos.get("chave", {})  # {}
 print(resultado)
-# Mesma coisa do exemplo anterio mais você da uma condição se por acaso não tiver a chave procurada e se não tiver 
+# Mesma coisa do exemplo anterio mais você da uma condição se por 
+# acaso não tiver a chave procurada e se não tiver 
 # ele retornara {}
 
 resultado = contatos.get("guilherme@gmail.com", {})  # {"guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"}
